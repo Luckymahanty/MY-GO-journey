@@ -1,0 +1,15 @@
+package main
+func main2(){
+
+}
+
+import "fmt"
+
+func main2() {
+    var age int = 21      // integer
+    var price float64 = 99.99 // decimal number
+    var name string = "Laxmi" // text
+    var isStudent bool = true // true/false
+
+    fmt.Println(age, price, name, isStudent)
+}
